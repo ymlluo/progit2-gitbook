@@ -76,8 +76,8 @@ image::../images/git-osx-installer.png[Git OS X 安装程序。]
 为了能够添加更多格式的文档（如 doc, html, info），你需要安装以下的依赖包：
 
 [source,console]
-  $ sudo yum install asciidoc xmlto docbook2x
-  $ sudo apt-get install asciidoc xmlto docbook2x
+  $ sudo yum install asciidoc xmlto docbook2X perl-ExtUtils-MakeMaker
+  $ sudo apt-get install asciidoc xmlto docbook2X perl-ExtUtils-MakeMaker
 
 当你安装好所有的必要依赖，你可以继续从几个地方来取得最新发布版本的 tar 包。
 你可以从 Kernel.org 网站获取，网址为 https://www.kernel.org/pub/software/scm/git[]，或从 GitHub 网站上的镜像来获得，网址为 https://github.com/git/git/releases[]。
